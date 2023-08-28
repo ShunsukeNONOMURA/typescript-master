@@ -14,10 +14,15 @@ yarn tsc --init
 yarn add -D prisma
 yarn prisma init --datasource-provider sqlite
 
+# prisma/schema.prisma 編集後
 yarn prisma migrate dev --name init
 
-mkdir src
+# src/create-user.ts 作成後
+npx ts-node src/create-user.ts
+# src/select-user.ts 作成後
+npx ts-node src/select-user.ts
 
+# prisma studio 起動
 yarn prisma studio
 ```
 

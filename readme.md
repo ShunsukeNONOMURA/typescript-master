@@ -24,6 +24,12 @@ npx ts-node src/select-user.ts
 
 # prisma studio 起動
 yarn prisma studio
+
+# axios 追加
+yarn add -D axios
+
+# nodemon express 追加
+yarn add -D typescript nodemon ts-node @types/express @types/node
 ```
 
 ## 参考
